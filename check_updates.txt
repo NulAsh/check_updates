@@ -1,0 +1,44 @@
+https://www.php.net/downloads.php
+0
+b'Current Stable</span>\\s*(.+?)\\s*\\('
+b'PHP 7.3.7'
+https://www.python.org
+0
+b'Latest: <a [^>]*>([^<]*)</a>'
+b'Python 3.7.4'
+https://httpd.apache.org/download.cgi
+0
+b'Stable Release - Latest Version:</p>\\s*<ul>\\s*<li><a [^>]*>([^<]*)</a>'
+b'2.4.39'
+https://dev.mysql.com/downloads/
+0
+b'MySQL Community Server</a>\\s*<span [^>]*>\(GPL\)<br />\(Current Generally Available Release: ([^)]*)\)</span>'
+b'8.0.17'
+https://www.phpmyadmin.net/downloads/
+0
+b'<h2>phpMyAdmin ([^<]*)</h2>'
+b'4.9.0.1'
+https://www.opencart.com/index.php?route=cms/download
+0
+b'<li>Download <strong>OpenCart ([^<]*)</strong> for free</li>'
+b'3.0.3.2'
+https://www.7-zip.org/download.html
+0
+b'<H1>Download</H1>\\s*<P><B>Download 7-Zip ([^ ]*) \('
+b'19.00'
+https://www.rarlab.com
+0
+b'WinRAR and RAR ([^ ]*) release'
+b'5.71'
+https://en.wikipedia.org/wiki/Overlord_(novel_series)
+0
+b'July 30, 2012</span> \xe2\x80\x93 present</td></tr><tr><th [^>]*>Volumes</th><td>([^ ]*) <'
+b'13'
+https://en.wikipedia.org/wiki/Overlord_(novel_series)
+0
+b'October 2, 2018</span></td></tr><tr><th [^>]*>Episodes</th><td>([^ ]*) \\+ OVA'
+b'39'
+https://steamdb.info/app/362890/
+0
+b'<img src="/static/p.gif" class="flag flag-ua" alt="ua" width="16" height="11"> Ukrainian Hryvnia\\s*</td>\\s*<td>(\\d*)\xe2\x82\xb4</td>'
+b'279'
