@@ -5,7 +5,7 @@ This program is designed to automatically check for updates on web pages. The fi
 
 Flag 0:
 
-The third line of the group is a retexp containing one subgroup (in parentheses). From the first match found, the subgroup will be highlighted and compared to the fourth line. If they do not match, an entry will be made to the check_updates_result.txt file. If no match is found on the page, or an error occurs on the page downloading, an entry will also be made about this.
+The third line of the group is a regexp containing one subgroup (in parentheses). From the first match found, the subgroup will be extracted and compared to the fourth line. If they do not match, an entry will be made to the check_updates_result.txt file. If no match is found on the page, or an error occurs on the page downloading, an entry will also be made about this.
 
 Flag 1:
 
