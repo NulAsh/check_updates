@@ -1,7 +1,7 @@
 https://www.php.net/downloads.php
 0
 b'Current Stable</span>\\s*(.+?)\\s*\\('
-b'PHP 7.3.7'
+b'PHP 7.3.9'
 https://www.python.org
 0
 b'Latest: <a [^>]*>([^<]*)</a>'
@@ -9,10 +9,10 @@ b'Python 3.7.4'
 https://httpd.apache.org/download.cgi
 0
 b'Stable Release - Latest Version:</p>\\s*<ul>\\s*<li><a [^>]*>([^<]*)</a>'
-b'2.4.39'
-https://dev.mysql.com/downloads/
+b'2.4.41'
+https://dev.mysql.com/downloads/installer/
 0
-b'MySQL Community Server</a>\\s*<span [^>]*>\(GPL\)<br />\(Current Generally Available Release: ([^)]*)\)</span>'
+b'<h1>MySQL Installer ([^ ]*) </h1>'
 b'8.0.17'
 https://www.phpmyadmin.net/downloads/
 0
@@ -42,3 +42,19 @@ https://steamdb.info/app/362890/
 0
 b'<img src="/static/p.gif" class="flag flag-ua" alt="ua" width="16" height="11"> Ukrainian Hryvnia\\s*</td>\\s*<td>(\\d*)\xe2\x82\xb4</td>'
 b'279'
+http://ithkuil.net/updates.htm
+0
+b'<blockquote>\\s*<table width="103%" border="0">\\s*<tr>\\s*<td valign="top"><p>([^<]*)</p>'
+b'May 3, 2019'
+https://farmanager.com/download.php?l=en
+0
+b'<h2>Stable builds</h2>\\s*<div>\\s*<ul>\\s*<li>\\s*<b>([^<]*)</b>'
+b'Far Manager v3.0 build 5454 x86'
+https://mangalib.me/dead-mount-death-play
+0
+b'<div class="chapters-list" data-manga-name="Dead Mount Death Play"[^>]*>\\s*<div class="chapter-item"[^>]*>\\s*<div[^>]*>\\s*<i[^>]*></i>\\s*</div>\\s*<div class="chapter-item__name">\\s*<a\\s*class="link-default"\\s*title=""\\s*href="([^"]*)"\\s*>'
+b'https://mangalib.me/dead-mount-death-play/v4/c32/pixel-horror'
+https://wordpress.org/download/
+0
+b'<span class="dashicons-before dashicons-download">\\s*Download WordPress (\\S*)\\s*</span>'
+b'5.2.3'
