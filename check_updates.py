@@ -1,4 +1,4 @@
-﻿from os.path import dirname, sep
+from os.path import dirname, sep
 import sys
 from urllib.request import Request, urlopen
 from urllib.error import URLError
@@ -13,13 +13,20 @@ for line in d1:
         buf.append(line)
         if len(buf) == 4:
             r = Request(buf[0], headers={'User-Agent': "Mozilla/5.0 (X11; U; Linux i686) Gecko/20071127 Firefox/2.0.0.11"})
+            print('Checking '+buf[0])
             try:
-                responce=urlopen(r)
+                responce=urlopen(r, timeout=30)
             except URLError as e:
                 if hasattr(e, 'reason'):
                     output.append(buf[0] + '\n' + repr(e.reason))
                 elif hasattr(e, 'code'):
                     output.append(buf[0] + '\n' + repr(e.code))
+            except ConnectionAbortedError as e:
+                output.append(buf[0] + '\nConnection aborted')
+            except ConnectionResetError as e:
+                output.append(buf[0] + '\nConnection reset')
+            except OSError as e:
+                output.append(buf[0] + '\n' + str(e))
             d2=responce.read()
             responce.close()
             if buf[1] == '0':
